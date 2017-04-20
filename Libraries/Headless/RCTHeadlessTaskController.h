@@ -8,6 +8,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <React/RCTBridge.h>
 
 @class RCTHeadlessTask;
 @protocol RCTBridgeDelegate;
@@ -25,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param delegate Used to initialize the underlying RCTBridge.
  */
-- (instancetype)initWithDelegate:(id<RCTBridgeDelegate>)delegate;
+- (instancetype)initWithBridge:(RCTBridge *)bridge;
 
 /**
  * Executes the task in JS.

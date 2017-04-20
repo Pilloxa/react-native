@@ -20,14 +20,13 @@
 
 @implementation RCTHeadlessTaskController
 
-- (instancetype)initWithDelegate:(id<RCTBridgeDelegate>)delegate
+- (instancetype)initWithBridge:(RCTBridge *)bridge
 {
   self = [super init];
   if (self) {
     self.lastTaskId = 0;
     self.activeTasks = [NSMutableDictionary new];
-    self.bridge = [[RCTBridge alloc] initWithDelegate:delegate
-                                        launchOptions:nil];
+    self.bridge = bridge;
 
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(javaScriptDidLoad:)
