@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0809D3E71E8264BB0052F999 /* RCTHeadlessTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0809D3E21E8264BB0052F999 /* RCTHeadlessTask.m */; };
-		0809D3E81E8264BB0052F999 /* RCTHeadlessTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0809D3E41E8264BB0052F999 /* RCTHeadlessTaskController.m */; };
-		0809D3E91E8264BB0052F999 /* RCTHeadlessTaskSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */; };
 		08880E1A1E93EFCD00F2D0E2 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08880E171E93EFC300F2D0E2 /* libRCTWebSocket.a */; };
 		08880E1D1E93F0A100F2D0E2 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08880E171E93EFC300F2D0E2 /* libRCTWebSocket.a */; };
-		089552311E82BB160099A213 /* RCTHeadlessTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 0809D3E11E8264BB0052F999 /* RCTHeadlessTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		089552321E82BB1A0099A213 /* RCTHeadlessTaskController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0809D3E31E8264BB0052F999 /* RCTHeadlessTaskController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		089552331E82BB1D0099A213 /* RCTHeadlessTaskSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08E002181E8E83FC00396E66 /* RCTHeadlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E002171E8E83FC00396E66 /* RCTHeadlessTests.m */; };
 		08E0021A1E8E83FC00396E66 /* libRCTHeadless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0809D3C61E8263CB0052F999 /* libRCTHeadless.a */; };
 		08E002551E8E84FD00396E66 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E0023D1E8E84D300396E66 /* libReact.a */; };
 		08E002561E8E852B00396E66 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E0023D1E8E84D300396E66 /* libReact.a */; };
 		08E002581E8E868800396E66 /* TestBundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 08E002571E8E868800396E66 /* TestBundle.js */; };
+		A55126301EA8A2DD00645FBE /* RCTHeadlessTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A551262A1EA8A2DD00645FBE /* RCTHeadlessTask.h */; };
+		A55126311EA8A2DD00645FBE /* RCTHeadlessTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A551262B1EA8A2DD00645FBE /* RCTHeadlessTask.m */; };
+		A55126321EA8A2DD00645FBE /* RCTHeadlessTaskController.h in Headers */ = {isa = PBXBuildFile; fileRef = A551262C1EA8A2DD00645FBE /* RCTHeadlessTaskController.h */; };
+		A55126331EA8A2DD00645FBE /* RCTHeadlessTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = A551262D1EA8A2DD00645FBE /* RCTHeadlessTaskController.m */; };
+		A55126341EA8A2DD00645FBE /* RCTHeadlessTaskSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A551262E1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.h */; };
+		A55126351EA8A2DD00645FBE /* RCTHeadlessTaskSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A551262F1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,18 +116,18 @@
 
 /* Begin PBXFileReference section */
 		0809D3C61E8263CB0052F999 /* libRCTHeadless.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTHeadless.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0809D3E11E8264BB0052F999 /* RCTHeadlessTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTask.h; path = ../../RCTHeadlessTask.h; sourceTree = "<group>"; };
-		0809D3E21E8264BB0052F999 /* RCTHeadlessTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTask.m; path = ../../RCTHeadlessTask.m; sourceTree = "<group>"; };
-		0809D3E31E8264BB0052F999 /* RCTHeadlessTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTaskController.h; path = ../../RCTHeadlessTaskController.h; sourceTree = "<group>"; };
-		0809D3E41E8264BB0052F999 /* RCTHeadlessTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTaskController.m; path = ../../RCTHeadlessTaskController.m; sourceTree = "<group>"; };
-		0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTaskSupport.h; path = ../../RCTHeadlessTaskSupport.h; sourceTree = "<group>"; };
-		0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTaskSupport.m; path = ../../RCTHeadlessTaskSupport.m; sourceTree = "<group>"; };
 		08880E111E93EFC200F2D0E2 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = ../../WebSocket/RCTWebSocket.xcodeproj; sourceTree = "<group>"; };
 		08E002151E8E83FB00396E66 /* RCTHeadlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTHeadlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E002171E8E83FC00396E66 /* RCTHeadlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTests.m; sourceTree = "<group>"; };
 		08E002191E8E83FC00396E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08E002311E8E84D300396E66 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = ../../../React/React.xcodeproj; sourceTree = "<group>"; };
 		08E002571E8E868800396E66 /* TestBundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TestBundle.js; sourceTree = "<group>"; };
+		A551262A1EA8A2DD00645FBE /* RCTHeadlessTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTask.h; sourceTree = "<group>"; };
+		A551262B1EA8A2DD00645FBE /* RCTHeadlessTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTask.m; sourceTree = "<group>"; };
+		A551262C1EA8A2DD00645FBE /* RCTHeadlessTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTaskController.h; sourceTree = "<group>"; };
+		A551262D1EA8A2DD00645FBE /* RCTHeadlessTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTaskController.m; sourceTree = "<group>"; };
+		A551262E1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTaskSupport.h; sourceTree = "<group>"; };
+		A551262F1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTaskSupport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,13 @@
 		0809D3BD1E8263CA0052F999 = {
 			isa = PBXGroup;
 			children = (
+				A551262A1EA8A2DD00645FBE /* RCTHeadlessTask.h */,
+				A551262B1EA8A2DD00645FBE /* RCTHeadlessTask.m */,
+				A551262C1EA8A2DD00645FBE /* RCTHeadlessTaskController.h */,
+				A551262D1EA8A2DD00645FBE /* RCTHeadlessTaskController.m */,
+				A551262E1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.h */,
+				A551262F1EA8A2DD00645FBE /* RCTHeadlessTaskSupport.m */,
 				08E002301E8E84BC00396E66 /* Libraries */,
-				0809D3C81E8263CB0052F999 /* RCTHeadless */,
 				08E002161E8E83FC00396E66 /* RCTHeadlessTests */,
 				0809D3C71E8263CB0052F999 /* Products */,
 			);
@@ -170,19 +175,6 @@
 				08E002151E8E83FB00396E66 /* RCTHeadlessTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0809D3C81E8263CB0052F999 /* RCTHeadless */ = {
-			isa = PBXGroup;
-			children = (
-				0809D3E11E8264BB0052F999 /* RCTHeadlessTask.h */,
-				0809D3E21E8264BB0052F999 /* RCTHeadlessTask.m */,
-				0809D3E31E8264BB0052F999 /* RCTHeadlessTaskController.h */,
-				0809D3E41E8264BB0052F999 /* RCTHeadlessTaskController.m */,
-				0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */,
-				0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */,
-			);
-			path = RCTHeadless;
 			sourceTree = "<group>";
 		};
 		08880E121E93EFC200F2D0E2 /* Products */ = {
@@ -235,9 +227,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089552331E82BB1D0099A213 /* RCTHeadlessTaskSupport.h in Headers */,
-				089552321E82BB1A0099A213 /* RCTHeadlessTaskController.h in Headers */,
-				089552311E82BB160099A213 /* RCTHeadlessTask.h in Headers */,
+				A55126301EA8A2DD00645FBE /* RCTHeadlessTask.h in Headers */,
+				A55126341EA8A2DD00645FBE /* RCTHeadlessTaskSupport.h in Headers */,
+				A55126321EA8A2DD00645FBE /* RCTHeadlessTaskController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +408,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0809D3E91E8264BB0052F999 /* RCTHeadlessTaskSupport.m in Sources */,
-				0809D3E71E8264BB0052F999 /* RCTHeadlessTask.m in Sources */,
-				0809D3E81E8264BB0052F999 /* RCTHeadlessTaskController.m in Sources */,
+				A55126311EA8A2DD00645FBE /* RCTHeadlessTask.m in Sources */,
+				A55126351EA8A2DD00645FBE /* RCTHeadlessTaskSupport.m in Sources */,
+				A55126331EA8A2DD00645FBE /* RCTHeadlessTaskController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
